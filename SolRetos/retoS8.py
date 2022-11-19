@@ -1,0 +1,8 @@
+nombreCompleto = input("Ingresa tu nombre completo:")
+print("Mayusculas:",nombreCompleto.upper())
+print("Minusculas:",nombreCompleto.lower())
+print("Title:",nombreCompleto.title())
+size = len(nombreCompleto)
+nombreCompletoSinEspacios = nombreCompleto.replace(" ","")
+sizeSinEspacios = len(nombreCompletoSinEspacios)
+print(f"La cadena de texto con tu nombre tiene:{size} caracteres de las cuales {sizeSinEspacios} son letras.")
